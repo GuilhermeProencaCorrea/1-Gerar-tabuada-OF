@@ -6,7 +6,5 @@ function gerarTabuada(){
     for (let i = 0; i <= limite; i++) {
     text+=`${fator1} * ${i} = ${fator1*i}<br>`;
     document.getElementById("construir").innerHTML=text;
-
-        
     }
 }
